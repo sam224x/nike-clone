@@ -1,8 +1,10 @@
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Barlow", sans-serif;
+  font-family: "BarlowCondensed", sans-serif;
 }
 nav {
   background-color: #ffffff;
@@ -182,32 +184,32 @@ form .searchIcon {
   background-color: rgb(223, 223, 131);
 }
 .sliderItem:nth-child(2) .sliderBg {
-  background-color: rgb(184, 132, 237);
+  background-color: rgb(255, 255, 255);
 }
 .sliderItem:nth-child(3) .sliderBg {
-  background-color: #000000;
+  background-color: #ffffff;
 }
 .sliderItem:nth-child(4) .sliderBg {
-  background-color: pink;
+  background-color: rgb(255, 255, 255);
 }
 .sliderItem:nth-child(5) .sliderBg {
-  background-color: sandybrown;
+  background-color: rgb(255, 255, 255);
 }
 
 .sliderItem:nth-child(1) .sliderPrice {
-  color: rgb(223, 223, 131);
+  color: rgb(255, 255, 255);
 }
 .sliderItem:nth-child(2) .sliderPrice {
-  color: rgb(184, 132, 237);
+  color: rgb(255, 255, 255);
 }
 .sliderItem:nth-child(3) .sliderPrice {
-  color: #369e62;
+  color: #ffffff;
 }
 .sliderItem:nth-child(4) .sliderPrice {
-  color: pink;
+  color: rgb(255, 255, 255);
 }
 .sliderItem:nth-child(5) .sliderPrice {
-  color: sandybrown;
+  color: rgb(255, 255, 255);
 }
 .features {
   display: flex;
@@ -253,9 +255,13 @@ form .searchIcon {
   padding: 25px;
 }
 
+#shop-by-sport {
+  margin-top: 80px;
+}
+
 .product {
   height: 100vh;
-  background-color: rgba(192, 192, 192, 0.653);
+  background-color: rgb(255, 255, 255);
   clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
   position: relative;
 }
@@ -328,7 +334,7 @@ form .searchIcon {
 }
 .productButton {
   padding: 10px 30px;
-  background-color: #055527;
+  background-color: #000000;
   color: #fff;
   outline: none;
   border: none;
@@ -403,7 +409,7 @@ label {
   width: 100%;
   margin-top: 20px;
   border-radius: 50px;
-  background-color: green;
+  background-color: rgb(0, 0, 0);
   color: #fff;
   outline: none;
   border: none;
@@ -438,7 +444,7 @@ label {
 }
 .galleryImg {
   width: 100%;
-  border-radius: 20px;
+  border-radius: 0px;
   cursor: pointer;
 }
 .galleryTitle {
