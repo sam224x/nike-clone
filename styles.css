@@ -250,6 +250,16 @@ form .searchIcon {
   text-align: center;
 }
 
+.membership{
+color: white;
+background-color: black;
+border-radius: 15px;
+padding: 5px;
+padding-left: 15px;
+padding-right: 15px;
+width: fit-content;
+}
+
 .dos {
   width: 100%;
   padding: 25px;
@@ -484,7 +494,8 @@ label {
 }
 footer {
   display: flex;
-  margin: 25px 55px;
+  background-color: black;
+  color: white;
 }
 .footerLeft {
   flex: 2;
@@ -504,6 +515,13 @@ footer {
   margin-bottom: 8px;
   color: rgb(94, 94, 94);
   cursor: pointer;
+  font-size: 12px;
+}
+.FfListItem {
+  margin-bottom: 8px;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 12px;
 }
 .footerRight {
   flex: 1;
